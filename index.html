@@ -1,37 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Ben's Protfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Page Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+        <script src="main.js"></script>
 
 </head>
+
 <body> 
-    <header>
-        <h1>Profile Page</h1>
-    </header>
-    <!--nav--> 
-    <nav>
-        <div><a href="index.html">index</a></div>
-        <div><a href="contact.html">contact</a></div>
-        <div><a href="portfolio.html">portforlio</a></div>
-    </nav>
-    <!--content-->
-    <div>
-        <h2>Ben Miller</h2>
-        <img src="assets/images/myimage.jpg">
-        <div>This is information about me. Or, more accurately, it will be once I can be bothered.</div>
-        <h2>Contact Info</h2>
-    </div>    
+   <!--header-->
+        <header class="top">
+            <div class="name">
+                <h1>Benjamin Miller</h1>
+            </div>
+        
+    <!--nav-->
+        <div class="contact">
+            <nav class="nav">
+                <div class="button"><a href="index.html">index</a></div>
+                <div class="button"><a href="portfolio.html">portfolio</a></div>
+                <div class="button"><a href="contact.html">contact</a></div>
+                
+            </nav>
+            </div>
+        </header>
+                
     
-    <div>
-        <ul>
-            <li>Email: benjamin.miller@northwestern.edu</li>
-            <li>Github: benjaminmiller2</li>
-            <li>Portfolio: Coming Soon</li>
-        </ul>
+    <!--content-->
+    <div class="main">
+    <!--image and text-->
+    <article class="article">
+        <div><h2>About Me</h2></div>
+
+        <div><img src="assets/images/myimage.jpg"
+            width= "200px";
+            height="150px"
+            class="align-left">
+        </div>
+    
+        <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam gravida neque sed metus bibendum sagittis. Sed tempus metus ut arcu scelerisque, vitae suscipit mauris suscipit. Morbi eu sapien vel purus blandit vulputate. Sed a ante bibendum, rutrum erat et, tincidunt velit. Donec varius felis magna, sit amet elementum mi consectetur vel. Morbi non ligula ac massa pretium lacinia ac ut felis. Aenean egestas suscipit mi in fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam gravida neque sed metus bibendum sagittis. Sed tempus metus ut arcu scelerisque, vitae suscipit mauris suscipit. Morbi eu sapien vel purus blandit vulputate. Sed a ante bibendum, rutrum erat et, tincidunt velit. Donec varius felis magna, sit amet elementum mi consectetur vel. Morbi non ligula ac massa pretium lacinia ac ut felis. Aenean egestas suscipit mi in fermentum. Quisque scelerisque, nulla at rhoncus tempus, tortor tellus ultricies velit, et cursus ante enim eu dolor. Sed pharetra, turpis at posuere iaculis, nunc est ultricies diam, ut varius erat mi eget tellus. Suspendisse sollicitudin tellus vel lectus ornare aliquam. Suspendisse ut suscipit odio. Ut laoreet, mi non vehicula mattis, risus mauris tempus sapien, sed porttitor felis dui nec ex. Sed porttitor sodales elit. Duis tincidunt tellus magna, efficitur consequat orci dignissim a. Fusce justo elit, efficitur eu velit in, sagittis vestibulum dolor. Vivamus id est metus. Donec hendrerit gravida ipsum, vitae pellentesque velit bibendum vitae. Praesent sit amet venenatis erat, vel pellentesque leo. Morbi nec nisi ultrices, vestibulum purus sed, rhoncus mauris.
+
+            </p></div>
+    </article>   
+        
+    <!--contact links-->
+    <div class="contact">
+            <div><h2 id="center">Connect With Me</h2></div>
+            <nav class="nav1">
+                <div><a href="https://www.linkedin.com/in/benjaminmiller1/" target="_blank">
+                        <img src="assets/images/linkedin.png" alt="Linkedin" width="50px" height="50px">
+                    </a></div>
+                <div><a href="https://github.com/benjaminmiller2" target="_blank">
+                        <img src="assets/images/github.png" alt="Github" width="50px" height="50px">
+                    </a></div>
+                <div><a href="https://stackoverflow.com/users/9213737/benjamin-miller?tab=profile" target="_blank">
+                    <img src="assets/images/stackoverflow.png" alt="Stack Overflow" width="50px" height="50px">
+                    </a></div>
+            </nav>
+        </div>
+    </div>
+    
     </div>
     <!--footer-->
+    <footer class="footer">
+        <p>@ Copyright 2018 Benjamin Miller</p>
+    </footer>
 </body>
 </html>
