@@ -1,5 +1,6 @@
 body{
-    background-color: whitesmoke;
+    background: url(../images/retina_dust.png);
+    background-color:white;
     position: relative;
 }
 h1{
@@ -8,12 +9,12 @@ h1{
 }
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: teal;
+    color: maroon;
     font-size: 22px;
 }
 p{
-    font-family: Arial, Helvetica, sans-serif; 
-    color: grey;   
+    font-family: 'Times New Roman', Times, serif; 
+    color: black;   
 }
 
 .header-wrapper{
@@ -24,26 +25,39 @@ background-color: white;
 width: 960px;
 margin-right: auto;
 margin-left: auto;
-border: 1px outset whitesmoke;
+border: 1px outset maroon;
 
 }
 .name-box{
 color: white;
-background-color: teal;
+background-color:maroon;
 padding: 20px;
 margin-bottom: 0px;
 }
 .nav-box{
 display: flex;
 justify-content: center;
+margin-right: 10px;
 }
+.nav-box1{
+    display: flex;
+    justify-content: center;
+    }
 .button{
     padding: 10px;
 }
+
 a:link{
 text-decoration: none;
-color: teal;
+color: maroon;
+font-size: 16px;
 }
+
+a:hover{
+text-decoration: underline;
+}
+
+a:visited{color: maroon}
 
 .section-wrapper{
 display: flex;
@@ -58,7 +72,7 @@ margin-bottom: 100px;
 .article-box1{
 width: 650px;
 background-color: white;
-border: 1px outset whitesmoke;
+border: 1px outset maroon;
 
 }
 .article-box2{
@@ -66,7 +80,7 @@ width: 270px;
 text-align: center;
 background-color: white;
 height: 150px;
-border: 1px outset whitesmoke;
+border: 1px outset maroon;
 }
 .grid{
     width: 640px;
@@ -80,7 +94,7 @@ border: 1px outset whitesmoke;
 }
 
 .footer-wrapper{
-background-color: grey;
+background-color: maroon;
 color: white;
 text-align: center;
 padding: 10px;
@@ -90,11 +104,12 @@ bottom: 0;
 }
 
 .image{
-border: 1px grey;
+border: 1px outset maroon;
 float: left;
-width: 300px;
+width: 200px;
 height: 200px;
-margin: 10px;
+margin-right: 10px;
+
 }
 .link-box{
     width: 70px;
@@ -105,24 +120,24 @@ margin: 10px;
 .heading{
     margin:10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: teal;
+    color: maroon;
 }
 hr{
     width:100%;
     height: 2px;
-    background-color: grey;
+    background-color: maroon;
 }
 .text{
-    margin: 10px;
+    padding: 10px;
 }
 .box{
     position: relative;
     height: 200px;
     width: 300px;
-    border: 1px grey;
+    border: 1px maroon;
 }
 .image1{
-    border: 1px grey;
+    border: 1px maroon;
     height: 200px;
     width: 300px;
     }
@@ -131,10 +146,11 @@ hr{
     bottom: 20px;
     padding: 10px;
     width: 100%;
-    background-color: teal;
+    background-color: maroon;
     color: white;
     text-align: center;
 }
 .form{
     padding: 10px;
+    color: maroon;
 }
