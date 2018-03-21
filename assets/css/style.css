@@ -5,16 +5,17 @@ body{
 }
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 36px;
+    font-size: 2em;
 }
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: maroon;
-    font-size: 22px;
+    font-size: 1.25em;
 }
 p{
     font-family: 'Times New Roman', Times, serif; 
-    color: black;   
+    color: black;  
+    font-size: 1em; 
 }
 
 .header-wrapper{
@@ -44,7 +45,7 @@ margin-right: 10px;
     justify-content: center;
     }
 .button{
-    padding: 10px;
+    padding: 10px 20px;
 }
 
 a:link{
@@ -101,6 +102,7 @@ padding: 10px;
 position: fixed;
 width: 100%;
 bottom: 0;
+font-size: .75em;
 }
 
 .image{
